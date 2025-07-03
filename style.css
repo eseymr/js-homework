@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+#guestInput {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+#addGuestBtn {
+  background-color: #3498db;
+}
+
+#addGuestBtn:hover {
+  background-color: #2980b9;
+}
+
+#clearAllBtn {
+  background-color: #888;
+}
+
+#clearAllBtn:hover {
+  background-color: #666;
+}
+
+#guestList {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+li.confirmed {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+li button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirmBtn {
+  background-color: #28a745;
+}
+
+.confirmBtn:hover {
+  background-color: #218838;
+}
+
+.removeBtn {
+  background-color: #dc3545;
+}
+
+.removeBtn:hover {
+  background-color: #c82333;
+}
+
+#confirmedCount {
+  font-weight: bold;
+  color: #333;
+}
